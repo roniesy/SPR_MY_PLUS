@@ -7,12 +7,19 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * 部门的业务逻辑层
+ */
 @Service
 public class DepartmentService {
 
     @Autowired
     DepartmentMapper departmentMapper;
 
+    /**
+     * 获取到所有的部门信息
+     * @return
+     */
     public List<Department> queryAllDepart(){
         return departmentMapper.queryAllDepart();
     };

@@ -4,9 +4,11 @@ import com.gyg.pojo.Employee;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * 定义员工的接口
+ */
 @Mapper
 @Repository
 public interface EmployeeMapper {

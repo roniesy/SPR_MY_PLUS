@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
 /**
- * 声明为配置类
+ * springmvc声明为配置类
  *
  * @author 郭运刚
  */

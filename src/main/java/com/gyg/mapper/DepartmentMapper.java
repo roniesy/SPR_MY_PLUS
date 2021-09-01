@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * 定义部门的接口
+ */
 @Mapper
 @Repository
 public interface DepartmentMapper {

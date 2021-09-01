@@ -14,6 +14,10 @@ class Springboot03WebApplicationTests {
     @Autowired
     DataSource dataSource;
 
+    /**
+     * 测试数据源
+     * @throws SQLException
+     */
     @Test
     void contextLoads() throws SQLException {
         System.out.println(dataSource.getClass());
