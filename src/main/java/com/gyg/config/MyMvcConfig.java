@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * springmvc声明为配置类
  *
- * @author 郭运刚
+ *
  */
 @Configuration
 public class MyMvcConfig implements WebMvcConfigurer {

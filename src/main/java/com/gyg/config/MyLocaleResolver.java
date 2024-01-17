@@ -9,7 +9,7 @@ import java.util.Locale;
 
 /**
  * 国际化配置
- * @author 郭运刚
+ *
  */
 public class MyLocaleResolver implements LocaleResolver {
 

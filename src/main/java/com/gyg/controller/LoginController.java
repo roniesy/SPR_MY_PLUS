@@ -29,6 +29,8 @@ public class LoginController {
             model.addAttribute("msg", "用户名或密码输入错误！");
             return "index";
         }
+
+
      /*   model.addAttribute("username",username);
         model.addAttribute("password",password);*/
 
